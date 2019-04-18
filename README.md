@@ -15,10 +15,22 @@ use one * to make italic:
 use bracket to make a link, use parenthesis to write the url link
 	[A Link HERE](www.bing.com)
 
+## Paragraph
+Use a blank line
+
+Here we go!
+
+## Line break
+
+Use 2 or more spaces after this line,  
+like this!  
+HEY?
+
 ## List
 
 ### Unordered
 Use one * before a paragram
+
 **REMEMBER to add a space after that!!!**
 like this:
 * Item1
@@ -37,42 +49,58 @@ like this:
 
 ### Add an image
 Use a "!"before the brakets
+
 Like ![Description](url)
 
 ## Block Quotoes
 Just use a ">"
 
 How to describe the mood today:
->Happy\n
+>Happy
+>
 >Satisfied
 
 ## Inline Code
 **Here comes the important!**
-"use '<addr>'" '<\n>'
-That is to say\n
-a <> inside a ''!
+
+'<addr>'
+	
+'<>'  
+'def'  
+'int arg1 = 0'  
+blablabla
+
+	
+That is to say
+
+something inside a "''"!
 
 **OR**
+
 just use 4 spaces to tell the compiler to write code\n
+
     def Hey():
 		print("HEY!!!")
 		return
 
 
 ### Sytax highlighting
+
 use ' * 3 and follows the language name!
 
-'''javascript
-function fancyAleart(arg){
-	if(arg){
-	$.facebook({div:'#foo'})
-}
-}'''
+
+	'''javascript
+	function fancyAleart(arg){
+		if(arg){
+		$.facebook({div:'#foo'})
+	}
+	}'''
 
 
 
 ## Tables
 use '<->' and '<|>' to make a table like
+
 left | Right
 ------ | ------
 here | there
@@ -84,6 +112,8 @@ here | there
 a | b>'
 
 ## lStrikethrough
+
 wrap with 2 tildes
+
 ~~Here~~
 ~~~~hey~~~~
