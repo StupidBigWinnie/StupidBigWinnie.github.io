@@ -93,7 +93,7 @@ def func1(arg):
 	return (arg + 1)
 ```
 
-```cssharp
+```csharp
 using System.Collection;
 
 public class DriClass : BaseClass{
@@ -110,17 +110,17 @@ public class DriClass : BaseClass{
 
 
 ## Tables
-use '<->' and '<|>' to make a table like
+use `-` and `|` to make a table like
 
 left | Right
 ------ | ------
 here | there
 a | b
 
-'<left | Right
+`left | Right
 ------ | ------
 here | there
-a | b>'
+a | b`
 
 ## lStrikethrough
 
