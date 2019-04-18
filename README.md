@@ -63,17 +63,16 @@ How to describe the mood today:
 ## Inline Code
 **Here comes the important!**
 
-'<addr>'
-	
-'<>'  
-'def'  
-'int arg1 = 0'  
+`<addr>`  
+`def`  
+`int arg1 = 2;`  
+
 blablabla
 
 	
 That is to say
 
-something inside a "''"!
+something inside a `` ` ` ``   !!
 
 **OR**
 
@@ -89,12 +88,10 @@ just use 4 spaces to tell the compiler to write code\n
 use ' * 3 and follows the language name!
 
 
-	'''javascript
-	function fancyAleart(arg){
-		if(arg){
-		$.facebook({div:'#foo'})
-	}
-	}'''
+	'''python3
+	def func1(arg):
+		return (arg + 1)
+	'''
 
 
 
