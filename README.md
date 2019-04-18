@@ -85,13 +85,27 @@ just use 4 spaces to tell the compiler to write code\n
 
 ### Sytax highlighting
 
-use ' * 3 and follows the language name!
+use `` ` `` * 3 and follows the language name!
 
 
-	'''python3
-	def func1(arg):
-		return (arg + 1)
-	'''
+```python3
+def func1(arg):
+	return (arg + 1)
+```
+
+```cssharp
+using System.Collection;
+
+public class DriClass : BaseClass{
+	private int id;
+	protected int parent;
+	
+	DriClass(){
+		id = 0;
+		parant = 0;}
+	
+}
+```
 
 
 
